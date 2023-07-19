@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T14:40:29.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vb-g7RsKT5TCzkVDkPrV" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T15:00:09.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NUKug7Tr8m4adnnVO0-p" version="21.5.0" type="github">
   <diagram name="第 1 页" id="L8ZCrId86UIUJhBQzHBy">
-    <mxGraphModel dx="677" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="598" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,8 +68,54 @@
         <mxCell id="fAKyNClEuvAhxEzox4LH-17" value="keepa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fAKyNClEuvAhxEzox4LH-14">
           <mxGeometry y="90" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="50" as="sourcePoint" />
+            <mxPoint x="560" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-25" value="自然搜索" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fAKyNClEuvAhxEzox4LH-24">
+          <mxGeometry x="-0.1857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fAKyNClEuvAhxEzox4LH-19" value="形容关键词/红的 ，塑料的，每个一行，有cpc 竞价，搜索，搜索趋势，google trend等属性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-19" target="fAKyNClEuvAhxEzox4LH-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="10" as="targetPoint" />
+            <mxPoint x="240" y="25" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-27" value="关键词竞价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-29" target="fAKyNClEuvAhxEzox4LH-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-31" value="展示" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fAKyNClEuvAhxEzox4LH-30">
+          <mxGeometry x="0.0997" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-29" value="广告位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-12.5" width="70" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
