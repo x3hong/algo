@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T01:23:31.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="75KNFvG_4_2JwnCadShg" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T16:23:07.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="O9Pk0c5KI1FCqnj56L1e" version="21.5.0" type="github">
   <diagram name="第 1 页" id="L8ZCrId86UIUJhBQzHBy">
-    <mxGraphModel dx="598" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,11 @@
         </mxCell>
         <mxCell id="fAKyNClEuvAhxEzox4LH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-1" target="fAKyNClEuvAhxEzox4LH-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-39" value="结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fAKyNClEuvAhxEzox4LH-10">
+          <mxGeometry x="-0.1985" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fAKyNClEuvAhxEzox4LH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-1" target="fAKyNClEuvAhxEzox4LH-19">
           <mxGeometry relative="1" as="geometry" />
@@ -26,7 +31,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fAKyNClEuvAhxEzox4LH-1" value="核心 小类目key N(桌子，桌垫)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="fAKyNClEuvAhxEzox4LH-1" value="核心 小类目key N(桌子，桌垫)，集中度" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="175" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fAKyNClEuvAhxEzox4LH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-2" target="fAKyNClEuvAhxEzox4LH-16">
@@ -50,10 +55,15 @@
         <mxCell id="fAKyNClEuvAhxEzox4LH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-9" target="fAKyNClEuvAhxEzox4LH-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-9" target="fAKyNClEuvAhxEzox4LH-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fAKyNClEuvAhxEzox4LH-9" value="每个类目下商品集合构成子市场组成一行" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="335" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fAKyNClEuvAhxEzox4LH-11" value="可查看该市场的垄断度和 小类 BSR 、搜索值。月销量，上架维度，发货方式等指标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fAKyNClEuvAhxEzox4LH-11" value="可查看该市场的垄断度和 小类 BSR 、搜索值。月销量，上架维度，发货方式，退货率等指标，过去一个月的" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="345" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fAKyNClEuvAhxEzox4LH-14" value="具体商品" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -86,6 +96,9 @@
               <mxPoint x="430" y="10" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAKyNClEuvAhxEzox4LH-19" target="fAKyNClEuvAhxEzox4LH-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fAKyNClEuvAhxEzox4LH-19" value="形容关键词/红的 ，塑料的，每个一行，有cpc 竞价，搜索，搜索趋势，google trend等属性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="25" width="120" height="60" as="geometry" />
@@ -127,6 +140,15 @@
           <mxGeometry x="-0.1556" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-37" value="可以用来挖掘关键词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-41" value="扩充关键词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAKyNClEuvAhxEzox4LH-42" value="关键词挖掘" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="358" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
