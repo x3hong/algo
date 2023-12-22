@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T03:41:17.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5f49DY-1APucBITUS3YB" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T03:43:19.461Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WBIT3shyEyyUwHgRVvg3" version="22.1.11" type="github">
   <diagram name="第 1 页" id="cVUbm9UWEKoOsPQShWTP">
     <mxGraphModel dx="1505" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" math="0" shadow="0">
       <root>
@@ -12,11 +12,6 @@
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-3" value="Calendar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="255" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="t88qJ_EhsTxvIyuulUaA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t88qJ_EhsTxvIyuulUaA-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="555" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-5" value="指数退避 ApiA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="525" width="120" height="60" as="geometry" />
@@ -74,7 +69,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-24" value="每分钟计数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="675" width="120" height="60" as="geometry" />
+          <mxGeometry x="405" y="813" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.605;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t88qJ_EhsTxvIyuulUaA-27" target="t88qJ_EhsTxvIyuulUaA-1">
           <mxGeometry relative="1" as="geometry">
@@ -96,8 +91,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="t88qJ_EhsTxvIyuulUaA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t88qJ_EhsTxvIyuulUaA-27" target="t88qJ_EhsTxvIyuulUaA-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-27" value="达到阈值？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="665" width="80" height="80" as="geometry" />
+          <mxGeometry x="700" y="803" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-33" value="http status = 429（http协议规范，im业务限流）, 596（滴滴内部定义，inrouter限流）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1010" y="210" width="480" height="30" as="geometry" />
@@ -106,10 +108,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-34" value="Apolllo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="665" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="803" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-36" value="阈值下发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="245" y="668" width="70" height="30" as="geometry" />
+          <mxGeometry x="245" y="806" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t88qJ_EhsTxvIyuulUaA-40" value="客户端限流中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="690" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
