@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T03:36:30.897Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="O4QfT-duqemQL1VGJOk2" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T03:41:17.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5f49DY-1APucBITUS3YB" version="22.1.11" type="github">
   <diagram name="第 1 页" id="cVUbm9UWEKoOsPQShWTP">
     <mxGraphModel dx="1505" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" math="0" shadow="0">
       <root>
@@ -45,25 +45,30 @@
             <mxPoint x="500.0000000000001" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="t88qJ_EhsTxvIyuulUaA-38" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t88qJ_EhsTxvIyuulUaA-12">
+          <mxGeometry x="-0.516" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-13" value="返回限流错误 {msg:&#39;限流中&#39;}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="440" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t88qJ_EhsTxvIyuulUaA-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.151;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t88qJ_EhsTxvIyuulUaA-1" target="t88qJ_EhsTxvIyuulUaA-23">
+        <mxCell id="t88qJ_EhsTxvIyuulUaA-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="t88qJ_EhsTxvIyuulUaA-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="420" as="sourcePoint" />
+            <mxPoint x="465" y="350" as="sourcePoint" />
             <mxPoint x="595" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t88qJ_EhsTxvIyuulUaA-23" target="t88qJ_EhsTxvIyuulUaA-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t88qJ_EhsTxvIyuulUaA-26" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t88qJ_EhsTxvIyuulUaA-25">
-          <mxGeometry x="-0.0875" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="t88qJ_EhsTxvIyuulUaA-39" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t88qJ_EhsTxvIyuulUaA-25">
+          <mxGeometry x="0.0556" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t88qJ_EhsTxvIyuulUaA-23" value="Api A限流中" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="520" width="70" height="70" as="geometry" />
+        <mxCell id="t88qJ_EhsTxvIyuulUaA-23" value="Api A 未限流" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t88qJ_EhsTxvIyuulUaA-24" target="t88qJ_EhsTxvIyuulUaA-27">
           <mxGeometry relative="1" as="geometry" />
