@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T03:54:07.671Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FjdzdDp2taPTaZGx7XhZ" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T07:25:21.919Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NkkkK5kTfgcoSzCAtvq0" version="22.1.11" type="github">
   <diagram name="第 1 页" id="cVUbm9UWEKoOsPQShWTP">
-    <mxGraphModel dx="1905" dy="841" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1905" dy="611" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -456,6 +456,9 @@
         </mxCell>
         <mxCell id="t88qJ_EhsTxvIyuulUaA-161" value="返回上层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="66" y="1927" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t88qJ_EhsTxvIyuulUaA-162" value="服务端限流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-119" y="1724" width="78" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
